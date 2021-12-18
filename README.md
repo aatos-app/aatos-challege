@@ -84,12 +84,12 @@ Hints:
 Deliverables:
 * Add columns using the Ant Design grid system
 
-### 4. WeatherDataSection deserves it's own file
+### 4. WeatherDataSection deserves its own file
 
-WeatherDataSection deserves it's own file: Move the component to a new file and import it from there.
+WeatherDataSection deserves its own file: Move the component to a new file and import it from there.
 
 Deliverables:
-* WeatherDataSection in it's own file
+* WeatherDataSection in its own file
 
 ### 5. Possibility select the city
 
