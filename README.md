@@ -60,7 +60,7 @@ npm run start
 
 Something seems off... Find what is causing the application to crash on start
 
-Deliverables:
+**Deliverables:**
 * Make the app compile
 
 ### 2. Where's the data?
@@ -69,7 +69,7 @@ At the moment there's no data to show. Use the provided `getWeatherFromApi` func
 
 **IMPORTANT NOTE:** The OpenWeatherMap API has a limit of 60 requests per minute. Be careful not to accidentally make an infinite loop that spams the API so your OpenWeatherMap account won't get blocked. If your account gets blocked, you won't be able to make any more requests. If that happens, you have to make a new account and update your API key in `.env.development.local` and restart the project. Note that it may take several hours for OpenWeather to enable a new API key after you have created it (but usually it should be enabled soon after creating it).
 
-Deliverables:
+**Deliverables:**
 * Fetch data from getWeatherFromApi and pass it to `WeatherDataSection`component.
 
 ### 3. Add some columns
@@ -81,14 +81,14 @@ Hints:
 
 ![example](example.png "Example")
 
-Deliverables:
+**Deliverables:**
 * Add columns using the Ant Design grid system
 
 ### 4. WeatherDataSection deserves its own file
 
 WeatherDataSection deserves its own file: Move the component to a new file and import it from there.
 
-Deliverables:
+**Deliverables:**
 * WeatherDataSection in its own file
 
 ### 5. Possibility select the city
@@ -104,7 +104,7 @@ The weather data should automatically be updated with the data for the chosen ci
 
 Also, the chosen city should be passed to the WeatherDataSection component as a prop and it should show the city name.
 
-Deliverables:
+**Deliverables:**
 * Possibility to select a city
 * Weatherdata automatically updates when a different city is selected
 * WeatherDataSection component should take the city as a prop
@@ -115,7 +115,7 @@ The same api call that we use to get the current weather also gives us informati
 
 Hint: The api returns the sunrise and sunset data in unix time. In order to convert it to a Javascript Date object you need to multiply it with 1000 e.g. `new Date(sunrise * 1000)`;
 
-Deliverables:
+**Deliverables:**
 * Show the time when sun rises
 * Show the time when the sun sets
 * Show the time how long the sun is up
@@ -149,7 +149,7 @@ Average: do the math :)
 
 The temperatures should be shown up to a precision of 1 decimal, so for example -1.9031 would be shown as -1.9. To get the temperature for a given day, you can use the `getTemperatureForDay` to parse it from an object in the forecast array.
 
-Deliverables:
+**Deliverables:**
 * Minimum temperature
 * Maximum temperature
 * Average temperature
